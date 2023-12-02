@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VendorAppInventory.MainForm" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACEIAACAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.MenuUserControl" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAQAiAgEACEAACAAAAiAEEAAAAAMAQgAAABACA=</HashCode>
+      <FileName>MenuUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.LoginUserControl" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQQACAAABAAAACIAAAiAAAAAQAAoECgAAAAACA=</HashCode>
+      <FileName>LoginUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.RegisterUserControl" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQQACgEABAAAACAAAgihAAAIQAACECAVAAACCA=</HashCode>
+      <FileName>RegisterUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.VendorAddUserControl" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAgAAAQACAEABACACCBgQACAAgAIQAAgEBAACAoAKA=</HashCode>
+      <FileName>VendorAddUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.VendorViewUserControl" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAACAghQAIAACJIAACAAAAAAEAAIBAQCCAACg=</HashCode>
+      <FileName>VendorViewUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.AddProductUserControl" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eAAEAIAQAKAEABIABEKBAACDBCAIIBAAAEARASQIACI=</HashCode>
+      <FileName>AddProductUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.VendorDetailUserControl" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAQRACAAABAAAECBAQEGAAERAAICAAgAASAABCA=</HashCode>
+      <FileName>VendorDetailUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.ProductDetailUserControl" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIBATACAQABAIAACBAQAWEAEAIAAQAAAAAQAqACA=</HashCode>
+      <FileName>ProductDetailUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.User" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAgAAAAAAARACAAAAAACCAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.Product" Collapsed="true">
+    <Position X="6.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEACAAAAABAgAAgAIAAAQAAQAAAKAAACAAAAAAAIYAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendorAppInventory.Vendor" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BDhAQAAgAAAAAAgAAAAAAABAAAAAAJAIEAAACAAAAAA=</HashCode>
+      <FileName>Vendor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

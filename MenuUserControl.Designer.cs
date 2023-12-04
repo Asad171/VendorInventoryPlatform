@@ -51,7 +51,7 @@
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(897, 96);
+            tableLayoutPanel2.Size = new Size(992, 96);
             tableLayoutPanel2.TabIndex = 12;
             // 
             // LoginLabel
@@ -60,7 +60,7 @@
             LoginLabel.AutoSize = true;
             LoginLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             LoginLabel.ForeColor = SystemColors.ControlLightLight;
-            LoginLabel.Location = new Point(359, 27);
+            LoginLabel.Location = new Point(406, 27);
             LoginLabel.Margin = new Padding(4, 0, 4, 0);
             LoginLabel.Name = "LoginLabel";
             LoginLabel.Size = new Size(179, 41);
@@ -73,7 +73,7 @@
             AddVendorMenuButton.Anchor = AnchorStyles.None;
             AddVendorMenuButton.BackColor = Color.Honeydew;
             AddVendorMenuButton.ForeColor = Color.MediumSlateBlue;
-            AddVendorMenuButton.Location = new Point(3, 3);
+            AddVendorMenuButton.Location = new Point(15, 91);
             AddVendorMenuButton.Name = "AddVendorMenuButton";
             AddVendorMenuButton.Size = new Size(218, 266);
             AddVendorMenuButton.TabIndex = 13;
@@ -97,7 +97,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(897, 272);
+            tableLayoutPanel1.Size = new Size(992, 449);
             tableLayoutPanel1.TabIndex = 14;
             // 
             // ViewProductsMenuButton
@@ -105,7 +105,7 @@
             ViewProductsMenuButton.Anchor = AnchorStyles.None;
             ViewProductsMenuButton.BackColor = Color.Honeydew;
             ViewProductsMenuButton.ForeColor = Color.MediumSlateBlue;
-            ViewProductsMenuButton.Location = new Point(675, 3);
+            ViewProductsMenuButton.Location = new Point(759, 91);
             ViewProductsMenuButton.Name = "ViewProductsMenuButton";
             ViewProductsMenuButton.Size = new Size(218, 266);
             ViewProductsMenuButton.TabIndex = 16;
@@ -118,7 +118,7 @@
             ViewVendorsMenuButton.Anchor = AnchorStyles.None;
             ViewVendorsMenuButton.BackColor = Color.Honeydew;
             ViewVendorsMenuButton.ForeColor = Color.MediumSlateBlue;
-            ViewVendorsMenuButton.Location = new Point(451, 3);
+            ViewVendorsMenuButton.Location = new Point(511, 91);
             ViewVendorsMenuButton.Name = "ViewVendorsMenuButton";
             ViewVendorsMenuButton.Size = new Size(218, 266);
             ViewVendorsMenuButton.TabIndex = 15;
@@ -131,7 +131,7 @@
             AddProductMenuButton.Anchor = AnchorStyles.None;
             AddProductMenuButton.BackColor = Color.Honeydew;
             AddProductMenuButton.ForeColor = Color.MediumSlateBlue;
-            AddProductMenuButton.Location = new Point(227, 3);
+            AddProductMenuButton.Location = new Point(263, 91);
             AddProductMenuButton.Name = "AddProductMenuButton";
             AddProductMenuButton.Size = new Size(218, 266);
             AddProductMenuButton.TabIndex = 14;
@@ -141,9 +141,9 @@
             // 
             // ExitButton
             // 
-            ExitButton.Anchor = AnchorStyles.Right;
+            ExitButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             ExitButton.ForeColor = Color.OrangeRed;
-            ExitButton.Location = new Point(748, 449);
+            ExitButton.Location = new Point(832, 618);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(149, 49);
             ExitButton.TabIndex = 15;
@@ -163,7 +163,7 @@
             ForeColor = SystemColors.ControlLightLight;
             Margin = new Padding(4, 3, 4, 3);
             Name = "MenuUserControl";
-            Size = new Size(905, 523);
+            Size = new Size(1000, 700);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);

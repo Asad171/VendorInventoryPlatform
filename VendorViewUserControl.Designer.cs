@@ -49,36 +49,38 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 350F));
-            tableLayoutPanel1.Size = new Size(887, 601);
+            tableLayoutPanel1.Size = new Size(949, 574);
             tableLayoutPanel1.TabIndex = 0;
             tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             tableLayoutPanel1.Resize += tableLayoutPanel1_Resize;
             // 
             // SearchTextBox
             // 
-            SearchTextBox.Anchor = AnchorStyles.Right;
-            SearchTextBox.Location = new Point(521, 51);
+            SearchTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            SearchTextBox.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point);
+            SearchTextBox.Location = new Point(583, 57);
             SearchTextBox.Name = "SearchTextBox";
-            SearchTextBox.Size = new Size(304, 30);
+            SearchTextBox.Size = new Size(304, 31);
             SearchTextBox.TabIndex = 0;
             // 
             // SearchButton
             // 
-            SearchButton.Anchor = AnchorStyles.Right;
-            SearchButton.Location = new Point(819, 51);
+            SearchButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            SearchButton.Location = new Point(881, 53);
             SearchButton.Name = "SearchButton";
-            SearchButton.Size = new Size(94, 30);
+            SearchButton.Size = new Size(93, 38);
             SearchButton.TabIndex = 1;
             SearchButton.Text = "Search";
             SearchButton.UseVisualStyleBackColor = true;
+            SearchButton.Click += SearchButton_Click;
             // 
             // VednorsButton
             // 
-            VednorsButton.Anchor = AnchorStyles.Right;
+            VednorsButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             VednorsButton.FlatAppearance.BorderColor = Color.FromArgb(0, 64, 0);
             VednorsButton.FlatAppearance.BorderSize = 5;
             VednorsButton.ForeColor = Color.OrangeRed;
-            VednorsButton.Location = new Point(309, 43);
+            VednorsButton.Location = new Point(372, 51);
             VednorsButton.Name = "VednorsButton";
             VednorsButton.Size = new Size(95, 40);
             VednorsButton.TabIndex = 2;
@@ -88,9 +90,9 @@
             // 
             // ProductsButton
             // 
-            ProductsButton.Anchor = AnchorStyles.Right;
+            ProductsButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             ProductsButton.ForeColor = Color.OrangeRed;
-            ProductsButton.Location = new Point(402, 43);
+            ProductsButton.Location = new Point(464, 51);
             ProductsButton.Name = "ProductsButton";
             ProductsButton.Size = new Size(95, 40);
             ProductsButton.TabIndex = 3;
@@ -103,7 +105,7 @@
             BackButton.FlatAppearance.BorderColor = Color.FromArgb(0, 64, 0);
             BackButton.FlatAppearance.BorderSize = 5;
             BackButton.ForeColor = Color.MediumSlateBlue;
-            BackButton.Location = new Point(25, 42);
+            BackButton.Location = new Point(25, 51);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(131, 40);
             BackButton.TabIndex = 4;
@@ -125,7 +127,7 @@
             Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             Margin = new Padding(4, 3, 4, 3);
             Name = "VendorViewUserControl";
-            Size = new Size(938, 727);
+            Size = new Size(1000, 700);
             ResumeLayout(false);
             PerformLayout();
         }

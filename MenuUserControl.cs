@@ -44,6 +44,7 @@ namespace VendorAppInventory
             }
         }
 
+
         // Method to navigate to Add Product Page
         private void AddProductMenuButton_Click(object sender, EventArgs e)
         {

@@ -68,9 +68,7 @@ namespace VendorAppInventory
         {
             Vendor vendor = new Vendor();
             vendor.DeleteVendorById(MenuUserControl.VendorList[vendorId].Idvendors);
-            MessageBox.Show(MenuUserControl.VendorList[vendorId].Idvendors.ToString());
             MenuUserControl.VendorList.Remove(MenuUserControl.VendorList[vendorId]);
-
 
             this.Hide();
             MainForm.MainInstance.Text = "Main Menu";

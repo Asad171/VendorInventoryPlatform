@@ -61,7 +61,7 @@
             tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 31.2355957F));
             tableLayoutPanel5.Controls.Add(label1, 1, 0);
             tableLayoutPanel5.Controls.Add(LoginButton, 2, 0);
-            tableLayoutPanel5.Location = new Point(25, 479);
+            tableLayoutPanel5.Location = new Point(50, 479);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -100,7 +100,7 @@
             tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel4.Controls.Add(RegisterButton, 1, 0);
-            tableLayoutPanel4.Location = new Point(25, 408);
+            tableLayoutPanel4.Location = new Point(50, 408);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
@@ -131,7 +131,7 @@
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Size = new Size(898, 96);
+            tableLayoutPanel2.Size = new Size(948, 96);
             tableLayoutPanel2.TabIndex = 12;
             // 
             // RegisterLabel
@@ -140,7 +140,7 @@
             RegisterLabel.AutoSize = true;
             RegisterLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             RegisterLabel.ForeColor = SystemColors.ControlLightLight;
-            RegisterLabel.Location = new Point(382, 27);
+            RegisterLabel.Location = new Point(407, 27);
             RegisterLabel.Margin = new Padding(4, 0, 4, 0);
             RegisterLabel.Name = "RegisterLabel";
             RegisterLabel.Size = new Size(134, 41);
@@ -173,7 +173,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0010567F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20.0010567F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 19.9957619F));
-            tableLayoutPanel1.Size = new Size(901, 253);
+            tableLayoutPanel1.Size = new Size(951, 253);
             tableLayoutPanel1.TabIndex = 11;
             // 
             // label2
@@ -181,7 +181,7 @@
             label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(288, 215);
+            label2.Location = new Point(309, 215);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(98, 23);
@@ -193,7 +193,7 @@
             UsernameLabel.Anchor = AnchorStyles.Right;
             UsernameLabel.AutoSize = true;
             UsernameLabel.ForeColor = SystemColors.ControlLightLight;
-            UsernameLabel.Location = new Point(279, 13);
+            UsernameLabel.Location = new Point(300, 13);
             UsernameLabel.Margin = new Padding(4, 0, 4, 0);
             UsernameLabel.Name = "UsernameLabel";
             UsernameLabel.Size = new Size(107, 23);
@@ -203,7 +203,7 @@
             // UsernameTextBox
             // 
             UsernameTextBox.Anchor = AnchorStyles.Left;
-            UsernameTextBox.Location = new Point(393, 10);
+            UsernameTextBox.Location = new Point(414, 10);
             UsernameTextBox.Name = "UsernameTextBox";
             UsernameTextBox.Size = new Size(352, 30);
             UsernameTextBox.TabIndex = 1;
@@ -213,7 +213,7 @@
             EmailLabel.Anchor = AnchorStyles.Right;
             EmailLabel.AutoSize = true;
             EmailLabel.ForeColor = SystemColors.ControlLightLight;
-            EmailLabel.Location = new Point(322, 63);
+            EmailLabel.Location = new Point(343, 63);
             EmailLabel.Margin = new Padding(4, 0, 4, 0);
             EmailLabel.Name = "EmailLabel";
             EmailLabel.Size = new Size(64, 23);
@@ -223,7 +223,7 @@
             // EmailTextBox
             // 
             EmailTextBox.Anchor = AnchorStyles.Left;
-            EmailTextBox.Location = new Point(393, 60);
+            EmailTextBox.Location = new Point(414, 60);
             EmailTextBox.Name = "EmailTextBox";
             EmailTextBox.Size = new Size(352, 30);
             EmailTextBox.TabIndex = 5;
@@ -231,7 +231,7 @@
             // PasswordTextBox
             // 
             PasswordTextBox.Anchor = AnchorStyles.Left;
-            PasswordTextBox.Location = new Point(393, 110);
+            PasswordTextBox.Location = new Point(414, 110);
             PasswordTextBox.Name = "PasswordTextBox";
             PasswordTextBox.Size = new Size(352, 30);
             PasswordTextBox.TabIndex = 7;
@@ -241,7 +241,7 @@
             PasswordLabel.Anchor = AnchorStyles.Right;
             PasswordLabel.AutoSize = true;
             PasswordLabel.ForeColor = SystemColors.ControlLightLight;
-            PasswordLabel.Location = new Point(291, 113);
+            PasswordLabel.Location = new Point(312, 113);
             PasswordLabel.Margin = new Padding(4, 0, 4, 0);
             PasswordLabel.Name = "PasswordLabel";
             PasswordLabel.Size = new Size(95, 23);
@@ -251,7 +251,7 @@
             // ConfirmPasswordTextBox
             // 
             ConfirmPasswordTextBox.Anchor = AnchorStyles.Left;
-            ConfirmPasswordTextBox.Location = new Point(393, 160);
+            ConfirmPasswordTextBox.Location = new Point(414, 160);
             ConfirmPasswordTextBox.Name = "ConfirmPasswordTextBox";
             ConfirmPasswordTextBox.Size = new Size(352, 30);
             ConfirmPasswordTextBox.TabIndex = 9;
@@ -261,7 +261,7 @@
             ConfirmPasswordLabel.Anchor = AnchorStyles.Right;
             ConfirmPasswordLabel.AutoSize = true;
             ConfirmPasswordLabel.ForeColor = SystemColors.ControlLightLight;
-            ConfirmPasswordLabel.Location = new Point(220, 163);
+            ConfirmPasswordLabel.Location = new Point(241, 163);
             ConfirmPasswordLabel.Margin = new Padding(4, 0, 4, 0);
             ConfirmPasswordLabel.Name = "ConfirmPasswordLabel";
             ConfirmPasswordLabel.Size = new Size(166, 23);
@@ -272,7 +272,7 @@
             // 
             AdminCheckBox.Anchor = AnchorStyles.Left;
             AdminCheckBox.AutoSize = true;
-            AdminCheckBox.Location = new Point(393, 213);
+            AdminCheckBox.Location = new Point(414, 213);
             AdminCheckBox.Name = "AdminCheckBox";
             AdminCheckBox.Size = new Size(86, 27);
             AdminCheckBox.TabIndex = 12;
@@ -291,7 +291,7 @@
             Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             Margin = new Padding(4, 3, 4, 3);
             Name = "RegisterUserControl";
-            Size = new Size(950, 600);
+            Size = new Size(1000, 700);
             tableLayoutPanel5.ResumeLayout(false);
             tableLayoutPanel5.PerformLayout();
             tableLayoutPanel4.ResumeLayout(false);

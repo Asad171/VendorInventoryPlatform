@@ -15,12 +15,13 @@ namespace VendorAppInventory
     public partial class VendorViewUserControl : UserControl
     {
         public static VendorViewUserControl VendorViewInstance = new VendorViewUserControl();
+        public string page = "";
 
         public VendorViewUserControl()
         {
             InitializeComponent();
             VendorViewInstance = this;
-            PopulateVendorMainTableLayoutPanel();
+            PopulateVendorMainTableLayoutPanel(MenuUserControl.VendorList);
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -29,17 +30,17 @@ namespace VendorAppInventory
         }
 
 
-        private void PopulateProductMainTableLayoutPanel()
+        private void PopulateProductMainTableLayoutPanel(List<Product> ProductList)
         {
             tableLayoutPanel1.Controls.Clear();
 
-            for (int i = 0; i < (MenuUserControl.ProductList.Count / 2); i++)
+            for (int i = 0; i < (ProductList.Count / 2); i++)
             {
                 tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 350F));
             }
 
             int productId = 0;
-            foreach (var prodcut in MenuUserControl.ProductList)
+            foreach (var prodcut in ProductList)
             {
                 TableLayoutPanel subLayout = CreateSubTableLayoutPanel(prodcut.PosterImage, prodcut.ProductName, prodcut.Description, productId, "product");
                 tableLayoutPanel1.Controls.Add(subLayout);
@@ -48,16 +49,16 @@ namespace VendorAppInventory
         }
 
 
-        private void PopulateVendorMainTableLayoutPanel()
+        private void PopulateVendorMainTableLayoutPanel(List<Vendor> VendorList)
         {
             tableLayoutPanel1.Controls.Clear();
-            for (int i = 0; i < (MenuUserControl.VendorList.Count / 2); i++)
+            for (int i = 0; i < (VendorList.Count / 2); i++)
             {
                 tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 350F));
             }
 
             int vendorId = 0;
-            foreach (var vendor in MenuUserControl.VendorList)
+            foreach (var vendor in VendorList)
             {
                 TableLayoutPanel subLayout = CreateSubTableLayoutPanel(vendor.Images, vendor.CompanyName, vendor.CompanyName, vendorId, "vendor");
                 tableLayoutPanel1.Controls.Add(subLayout);
@@ -209,12 +210,13 @@ namespace VendorAppInventory
 
         private void VednorsButton_Click(object sender, EventArgs e)
         {
-            PopulateVendorMainTableLayoutPanel();
+            PopulateVendorMainTableLayoutPanel(MenuUserControl.VendorList);
         }
+
 
         private void ProductsButton_Click(object sender, EventArgs e)
         {
-            PopulateProductMainTableLayoutPanel();
+            PopulateProductMainTableLayoutPanel(MenuUserControl.ProductList);
         }
 
         // A method to decide which data to show
@@ -222,12 +224,69 @@ namespace VendorAppInventory
         {
             if (dataType == "Vendors")
             {
-                PopulateVendorMainTableLayoutPanel();
+                PopulateVendorMainTableLayoutPanel(MenuUserControl.VendorList);
+                page = "Vendors";
             }
             else if (dataType == "Products")
             {
-                PopulateProductMainTableLayoutPanel();
+                page = "Products";
+                PopulateProductMainTableLayoutPanel(MenuUserControl.ProductList);
             }
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            string searchString = SearchTextBox.Text;
+
+            if (page == "Vendors")
+            {
+                if (searchString.Trim() == string.Empty)
+                {
+                    PopulateVendorMainTableLayoutPanel(MenuUserControl.VendorList);
+                    return;
+                }
+                List<Vendor> vendors = SearchVendors(MenuUserControl.VendorList, searchString);
+                PopulateVendorMainTableLayoutPanel(vendors);
+            }
+            if (page == "Products")
+            {
+                if (searchString.Trim() == string.Empty)
+                {
+                    PopulateProductMainTableLayoutPanel(MenuUserControl.ProductList);
+                    return;
+                }
+                List<Product> products = SearchProducts(MenuUserControl.ProductList, searchString);
+                PopulateProductMainTableLayoutPanel(products);
+            }
+        }
+
+        public List<Vendor> SearchVendors(List<Vendor> vendors, string searchString)
+        {
+            return vendors.Where(vendor => ContainsString(vendor, searchString)).ToList();
+        }
+
+        public List<Product> SearchProducts(List<Product> products, string searchString)
+        {
+            return products.Where(product => ContainsString(product, searchString)).ToList();
+        }
+
+        private bool ContainsString(Vendor vendor, string searchString)
+        {
+            return vendor.CompanyName.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || vendor.Addresses.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || vendor.LocationCountries.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || vendor.LocationCities.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || vendor.EstablishmentDate.Contains(searchString, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private bool ContainsString(Product product, string searchString)
+        {
+            return product.ProductName.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || product.Description.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || product.AdditionalInformation.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || product.BusinessAreas.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || product.TypeOfSoftware.Contains(searchString, StringComparison.OrdinalIgnoreCase)
+                || product.Modules.Contains(searchString, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

@@ -77,21 +77,21 @@
             tableLayoutPanel1.Controls.Add(ProductWebsiteLinkLabel, 1, 2);
             tableLayoutPanel1.Controls.Add(label9, 0, 3);
             tableLayoutPanel1.Controls.Add(CloudLabel, 1, 3);
-            tableLayoutPanel1.Location = new Point(7, 57);
+            tableLayoutPanel1.Location = new Point(8, 72);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
-            tableLayoutPanel1.Size = new Size(541, 198);
+            tableLayoutPanel1.Size = new Size(541, 165);
             tableLayoutPanel1.TabIndex = 7;
             // 
             // label3
             // 
             label3.Anchor = AnchorStyles.Left;
             label3.AutoSize = true;
-            label3.Location = new Point(3, 111);
+            label3.Location = new Point(3, 91);
             label3.Name = "label3";
             label3.Size = new Size(153, 23);
             label3.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             label1.Anchor = AnchorStyles.Left;
             label1.AutoSize = true;
-            label1.Location = new Point(3, 62);
+            label1.Location = new Point(3, 50);
             label1.Name = "label1";
             label1.Size = new Size(148, 23);
             label1.TabIndex = 1;
@@ -111,7 +111,7 @@
             // 
             label2.Anchor = AnchorStyles.Left;
             label2.AutoSize = true;
-            label2.Location = new Point(3, 13);
+            label2.Location = new Point(3, 9);
             label2.Name = "label2";
             label2.Size = new Size(135, 23);
             label2.TabIndex = 2;
@@ -121,7 +121,7 @@
             // 
             CompanyNameLabel.Anchor = AnchorStyles.Left;
             CompanyNameLabel.AutoSize = true;
-            CompanyNameLabel.Location = new Point(273, 62);
+            CompanyNameLabel.Location = new Point(273, 50);
             CompanyNameLabel.Name = "CompanyNameLabel";
             CompanyNameLabel.Size = new Size(43, 23);
             CompanyNameLabel.TabIndex = 5;
@@ -131,7 +131,7 @@
             // 
             ProductNameLabel.Anchor = AnchorStyles.Left;
             ProductNameLabel.AutoSize = true;
-            ProductNameLabel.Location = new Point(273, 13);
+            ProductNameLabel.Location = new Point(273, 9);
             ProductNameLabel.Name = "ProductNameLabel";
             ProductNameLabel.Size = new Size(43, 23);
             ProductNameLabel.TabIndex = 6;
@@ -141,7 +141,7 @@
             // 
             ProductWebsiteLinkLabel.Anchor = AnchorStyles.Left;
             ProductWebsiteLinkLabel.AutoSize = true;
-            ProductWebsiteLinkLabel.Location = new Point(273, 111);
+            ProductWebsiteLinkLabel.Location = new Point(273, 91);
             ProductWebsiteLinkLabel.Name = "ProductWebsiteLinkLabel";
             ProductWebsiteLinkLabel.Size = new Size(43, 23);
             ProductWebsiteLinkLabel.TabIndex = 9;
@@ -152,7 +152,7 @@
             // 
             label9.Anchor = AnchorStyles.Left;
             label9.AutoSize = true;
-            label9.Location = new Point(3, 161);
+            label9.Location = new Point(3, 132);
             label9.Name = "label9";
             label9.Size = new Size(67, 23);
             label9.TabIndex = 10;
@@ -162,7 +162,7 @@
             // 
             CloudLabel.Anchor = AnchorStyles.Left;
             CloudLabel.AutoSize = true;
-            CloudLabel.Location = new Point(273, 161);
+            CloudLabel.Location = new Point(273, 132);
             CloudLabel.Name = "CloudLabel";
             CloudLabel.Size = new Size(43, 23);
             CloudLabel.TabIndex = 7;
@@ -172,7 +172,7 @@
             // 
             label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
-            label4.Location = new Point(35, 12);
+            label4.Location = new Point(45, 11);
             label4.Name = "label4";
             label4.Size = new Size(158, 23);
             label4.TabIndex = 4;
@@ -182,7 +182,7 @@
             // 
             TypeOfSoftwareLabel.Anchor = AnchorStyles.Left;
             TypeOfSoftwareLabel.AutoSize = true;
-            TypeOfSoftwareLabel.Location = new Point(4, 5);
+            TypeOfSoftwareLabel.Location = new Point(4, 3);
             TypeOfSoftwareLabel.Name = "TypeOfSoftwareLabel";
             TypeOfSoftwareLabel.Size = new Size(43, 23);
             TypeOfSoftwareLabel.TabIndex = 8;
@@ -191,9 +191,9 @@
             // ProductPosterImage
             // 
             ProductPosterImage.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            ProductPosterImage.Location = new Point(668, 57);
+            ProductPosterImage.Location = new Point(750, 72);
             ProductPosterImage.Name = "ProductPosterImage";
-            ProductPosterImage.Size = new Size(244, 198);
+            ProductPosterImage.Size = new Size(247, 182);
             ProductPosterImage.SizeMode = PictureBoxSizeMode.StretchImage;
             ProductPosterImage.TabIndex = 6;
             ProductPosterImage.TabStop = false;
@@ -214,12 +214,12 @@
             tableLayoutPanel2.Controls.Add(label7, 2, 0);
             tableLayoutPanel2.Controls.Add(panel1, 0, 1);
             tableLayoutPanel2.Controls.Add(label6, 1, 0);
-            tableLayoutPanel2.Location = new Point(0, 415);
+            tableLayoutPanel2.Location = new Point(0, 388);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 2;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 85F));
-            tableLayoutPanel2.Size = new Size(912, 314);
+            tableLayoutPanel2.Size = new Size(997, 309);
             tableLayoutPanel2.TabIndex = 8;
             // 
             // panel4
@@ -227,13 +227,14 @@
             panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel4.AutoScroll = true;
             panel4.Controls.Add(AttachedDocumentsTableLayoutPanel);
-            panel4.Location = new Point(687, 50);
+            panel4.Location = new Point(750, 49);
             panel4.Name = "panel4";
-            panel4.Size = new Size(222, 261);
+            panel4.Size = new Size(244, 257);
             panel4.TabIndex = 5;
             // 
             // AttachedDocumentsTableLayoutPanel
             // 
+            AttachedDocumentsTableLayoutPanel.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             AttachedDocumentsTableLayoutPanel.AutoScroll = true;
             AttachedDocumentsTableLayoutPanel.ColumnCount = 1;
             AttachedDocumentsTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
@@ -241,7 +242,7 @@
             AttachedDocumentsTableLayoutPanel.Name = "AttachedDocumentsTableLayoutPanel";
             AttachedDocumentsTableLayoutPanel.RowCount = 1;
             AttachedDocumentsTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            AttachedDocumentsTableLayoutPanel.Size = new Size(219, 253);
+            AttachedDocumentsTableLayoutPanel.Size = new Size(238, 249);
             AttachedDocumentsTableLayoutPanel.TabIndex = 4;
             // 
             // panel3
@@ -249,9 +250,9 @@
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel3.AutoScroll = true;
             panel3.Controls.Add(AdditionalInformationLabel);
-            panel3.Location = new Point(459, 50);
+            panel3.Location = new Point(501, 49);
             panel3.Name = "panel3";
-            panel3.Size = new Size(222, 261);
+            panel3.Size = new Size(243, 257);
             panel3.TabIndex = 5;
             // 
             // AdditionalInformationLabel
@@ -268,9 +269,9 @@
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel2.AutoScroll = true;
             panel2.Controls.Add(ModulesLabel);
-            panel2.Location = new Point(231, 50);
+            panel2.Location = new Point(252, 49);
             panel2.Name = "panel2";
-            panel2.Size = new Size(222, 261);
+            panel2.Size = new Size(243, 257);
             panel2.TabIndex = 5;
             // 
             // ModulesLabel
@@ -286,7 +287,7 @@
             // 
             label8.Anchor = AnchorStyles.None;
             label8.AutoSize = true;
-            label8.Location = new Point(709, 12);
+            label8.Location = new Point(783, 11);
             label8.Name = "label8";
             label8.Size = new Size(178, 23);
             label8.TabIndex = 3;
@@ -296,7 +297,7 @@
             // 
             label7.Anchor = AnchorStyles.None;
             label7.AutoSize = true;
-            label7.Location = new Point(472, 12);
+            label7.Location = new Point(524, 11);
             label7.Name = "label7";
             label7.Size = new Size(196, 23);
             label7.TabIndex = 2;
@@ -307,16 +308,16 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.AutoScroll = true;
             panel1.Controls.Add(TypeOfSoftwareLabel);
-            panel1.Location = new Point(3, 50);
+            panel1.Location = new Point(3, 49);
             panel1.Name = "panel1";
-            panel1.Size = new Size(222, 261);
+            panel1.Size = new Size(243, 257);
             panel1.TabIndex = 4;
             // 
             // label6
             // 
             label6.Anchor = AnchorStyles.None;
             label6.AutoSize = true;
-            label6.Location = new Point(303, 12);
+            label6.Location = new Point(334, 11);
             label6.Name = "label6";
             label6.Size = new Size(78, 23);
             label6.TabIndex = 1;
@@ -324,9 +325,8 @@
             // 
             // label5
             // 
-            label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
-            label5.Location = new Point(6, 258);
+            label5.Location = new Point(6, 256);
             label5.Name = "label5";
             label5.Size = new Size(107, 23);
             label5.TabIndex = 0;
@@ -334,11 +334,12 @@
             // 
             // DescriptionTextBox
             // 
+            DescriptionTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             DescriptionTextBox.Enabled = false;
-            DescriptionTextBox.Location = new Point(6, 293);
+            DescriptionTextBox.Location = new Point(7, 282);
             DescriptionTextBox.Multiline = true;
             DescriptionTextBox.Name = "DescriptionTextBox";
-            DescriptionTextBox.Size = new Size(906, 101);
+            DescriptionTextBox.Size = new Size(984, 100);
             DescriptionTextBox.TabIndex = 9;
             DescriptionTextBox.Text = "Demo";
             DescriptionTextBox.TextChanged += textBox1_TextChanged;
@@ -346,7 +347,7 @@
             // BackButton
             // 
             BackButton.ForeColor = Color.MediumSlateBlue;
-            BackButton.Location = new Point(6, 9);
+            BackButton.Location = new Point(6, 21);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(136, 42);
             BackButton.TabIndex = 10;
@@ -356,8 +357,9 @@
             // 
             // DeleteButton
             // 
+            DeleteButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             DeleteButton.ForeColor = Color.MediumSlateBlue;
-            DeleteButton.Location = new Point(776, 9);
+            DeleteButton.Location = new Point(861, 21);
             DeleteButton.Name = "DeleteButton";
             DeleteButton.Size = new Size(136, 42);
             DeleteButton.TabIndex = 11;
@@ -381,7 +383,7 @@
             ForeColor = SystemColors.ControlLightLight;
             Margin = new Padding(4, 3, 4, 3);
             Name = "ProductDetailUserControl";
-            Size = new Size(915, 732);
+            Size = new Size(1000, 700);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)ProductPosterImage).EndInit();

@@ -52,10 +52,10 @@
             VendorComboBox = new ComboBox();
             label10 = new Label();
             BrowseImageButton = new Button();
-            DescriptionTextBox = new TextBox();
-            AdditionalInformationTextBox = new TextBox();
             label12 = new Label();
             button1 = new Button();
+            DescriptionTextBox = new TextBox();
+            AdditionalInformationTextBox = new TextBox();
             ImageFileDialog = new OpenFileDialog();
             AddProductButton = new Button();
             BackButton = new Button();
@@ -75,7 +75,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(944, 92);
+            tableLayoutPanel1.Size = new Size(994, 92);
             tableLayoutPanel1.TabIndex = 1;
             // 
             // label1
@@ -85,7 +85,7 @@
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ControlLightLight;
             label1.ImageAlign = ContentAlignment.TopRight;
-            label1.Location = new Point(407, 32);
+            label1.Location = new Point(432, 32);
             label1.Name = "label1";
             label1.Size = new Size(130, 28);
             label1.TabIndex = 0;
@@ -120,19 +120,19 @@
             tableLayoutPanel2.Controls.Add(BrowseImageButton, 1, 6);
             tableLayoutPanel2.Controls.Add(DescriptionTextBox, 1, 3);
             tableLayoutPanel2.Controls.Add(AdditionalInformationTextBox, 1, 4);
-            tableLayoutPanel2.Controls.Add(label12, 2, 5);
-            tableLayoutPanel2.Controls.Add(button1, 3, 5);
+            tableLayoutPanel2.Controls.Add(label12, 2, 6);
+            tableLayoutPanel2.Controls.Add(button1, 3, 6);
             tableLayoutPanel2.Location = new Point(17, 110);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 7;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 7.631268F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.31504F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.31504F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.31504F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.3155022F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 11.4774218F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 7.630696F));
-            tableLayoutPanel2.Size = new Size(911, 452);
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 7.63126755F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.3150387F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.3150387F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.3150387F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.3155F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 7.47741938F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 11.6306953F));
+            tableLayoutPanel2.Size = new Size(961, 485);
             tableLayoutPanel2.TabIndex = 2;
             // 
             // label2
@@ -140,7 +140,7 @@
             label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(67, 5);
+            label2.Location = new Point(78, 7);
             label2.Name = "label2";
             label2.Size = new Size(135, 23);
             label2.TabIndex = 0;
@@ -149,27 +149,27 @@
             // ProductNameTextBox
             // 
             ProductNameTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            ProductNameTextBox.Location = new Point(208, 3);
+            ProductNameTextBox.Location = new Point(219, 3);
             ProductNameTextBox.Name = "ProductNameTextBox";
-            ProductNameTextBox.Size = new Size(242, 30);
+            ProductNameTextBox.Size = new Size(255, 30);
             ProductNameTextBox.TabIndex = 8;
             // 
             // TypeOfSoftwareTextBox
             // 
             TypeOfSoftwareTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            TypeOfSoftwareTextBox.Location = new Point(208, 40);
+            TypeOfSoftwareTextBox.Location = new Point(219, 46);
             TypeOfSoftwareTextBox.Multiline = true;
             TypeOfSoftwareTextBox.Name = "TypeOfSoftwareTextBox";
-            TypeOfSoftwareTextBox.Size = new Size(242, 70);
+            TypeOfSoftwareTextBox.Size = new Size(255, 70);
             TypeOfSoftwareTextBox.TabIndex = 10;
             // 
             // ModulesTextBox
             // 
             ModulesTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            ModulesTextBox.Location = new Point(208, 121);
+            ModulesTextBox.Location = new Point(219, 133);
             ModulesTextBox.Multiline = true;
             ModulesTextBox.Name = "ModulesTextBox";
-            ModulesTextBox.Size = new Size(242, 71);
+            ModulesTextBox.Size = new Size(255, 71);
             ModulesTextBox.TabIndex = 12;
             // 
             // label4
@@ -177,7 +177,7 @@
             label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
             label4.ForeColor = SystemColors.ControlLightLight;
-            label4.Location = new Point(513, 5);
+            label4.Location = new Point(545, 7);
             label4.Name = "label4";
             label4.Size = new Size(94, 23);
             label4.TabIndex = 2;
@@ -186,9 +186,9 @@
             // WesbiteURLTextBox
             // 
             WesbiteURLTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            WesbiteURLTextBox.Location = new Point(613, 3);
+            WesbiteURLTextBox.Location = new Point(645, 3);
             WesbiteURLTextBox.Name = "WesbiteURLTextBox";
-            WesbiteURLTextBox.Size = new Size(295, 30);
+            WesbiteURLTextBox.Size = new Size(313, 30);
             WesbiteURLTextBox.TabIndex = 15;
             // 
             // label5
@@ -196,7 +196,7 @@
             label5.Anchor = AnchorStyles.Right;
             label5.AutoSize = true;
             label5.ForeColor = SystemColors.ControlLightLight;
-            label5.Location = new Point(39, 63);
+            label5.Location = new Point(50, 69);
             label5.Name = "label5";
             label5.Size = new Size(163, 23);
             label5.TabIndex = 3;
@@ -207,7 +207,7 @@
             label9.Anchor = AnchorStyles.Right;
             label9.AutoSize = true;
             label9.ForeColor = SystemColors.ControlLightLight;
-            label9.Location = new Point(114, 145);
+            label9.Location = new Point(125, 157);
             label9.Name = "label9";
             label9.Size = new Size(88, 23);
             label9.TabIndex = 7;
@@ -218,7 +218,7 @@
             label7.Anchor = AnchorStyles.Right;
             label7.AutoSize = true;
             label7.ForeColor = SystemColors.ControlLightLight;
-            label7.Location = new Point(90, 227);
+            label7.Location = new Point(101, 245);
             label7.Name = "label7";
             label7.Size = new Size(112, 23);
             label7.TabIndex = 5;
@@ -227,10 +227,10 @@
             // BusinessAreaTextBox
             // 
             BusinessAreaTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            BusinessAreaTextBox.Location = new Point(613, 40);
+            BusinessAreaTextBox.Location = new Point(645, 46);
             BusinessAreaTextBox.Multiline = true;
             BusinessAreaTextBox.Name = "BusinessAreaTextBox";
-            BusinessAreaTextBox.Size = new Size(295, 70);
+            BusinessAreaTextBox.Size = new Size(313, 70);
             BusinessAreaTextBox.TabIndex = 13;
             // 
             // label8
@@ -238,7 +238,7 @@
             label8.Anchor = AnchorStyles.Right;
             label8.AutoSize = true;
             label8.ForeColor = SystemColors.ControlLightLight;
-            label8.Location = new Point(540, 145);
+            label8.Location = new Point(572, 157);
             label8.Name = "label8";
             label8.Size = new Size(67, 23);
             label8.TabIndex = 6;
@@ -250,7 +250,7 @@
             label6.AutoSize = true;
             label6.BackColor = Color.MediumSlateBlue;
             label6.ForeColor = SystemColors.ControlLightLight;
-            label6.Location = new Point(472, 63);
+            label6.Location = new Point(504, 69);
             label6.Name = "label6";
             label6.Size = new Size(135, 23);
             label6.TabIndex = 4;
@@ -261,7 +261,7 @@
             panel1.Controls.Add(EnabledRadioButton);
             panel1.Controls.Add(BasedRadioButton);
             panel1.Controls.Add(NativeRadioButton);
-            panel1.Location = new Point(613, 119);
+            panel1.Location = new Point(645, 128);
             panel1.Name = "panel1";
             panel1.Size = new Size(275, 75);
             panel1.TabIndex = 20;
@@ -304,9 +304,9 @@
             label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
             label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(86, 298);
+            label3.Location = new Point(7, 333);
             label3.Name = "label3";
-            label3.Size = new Size(116, 46);
+            label3.Size = new Size(206, 23);
             label3.TabIndex = 21;
             label3.Text = "Additional Information: ";
             // 
@@ -315,7 +315,7 @@
             label11.Anchor = AnchorStyles.Right;
             label11.AutoSize = true;
             label11.ForeColor = SystemColors.ControlLightLight;
-            label11.Location = new Point(124, 376);
+            label11.Location = new Point(135, 395);
             label11.Name = "label11";
             label11.Size = new Size(78, 23);
             label11.TabIndex = 23;
@@ -324,7 +324,7 @@
             // VendorComboBox
             // 
             VendorComboBox.FormattingEnabled = true;
-            VendorComboBox.Location = new Point(208, 365);
+            VendorComboBox.Location = new Point(219, 392);
             VendorComboBox.Name = "VendorComboBox";
             VendorComboBox.Size = new Size(242, 31);
             VendorComboBox.TabIndex = 24;
@@ -335,7 +335,7 @@
             label10.Anchor = AnchorStyles.Right;
             label10.AutoSize = true;
             label10.ForeColor = SystemColors.ControlLightLight;
-            label10.Location = new Point(78, 421);
+            label10.Location = new Point(89, 443);
             label10.Name = "label10";
             label10.Size = new Size(124, 23);
             label10.TabIndex = 18;
@@ -346,40 +346,20 @@
             BrowseImageButton.Anchor = AnchorStyles.Left;
             BrowseImageButton.BackColor = Color.Lavender;
             BrowseImageButton.ForeColor = Color.MediumSlateBlue;
-            BrowseImageButton.Location = new Point(208, 416);
+            BrowseImageButton.Location = new Point(219, 432);
             BrowseImageButton.Name = "BrowseImageButton";
-            BrowseImageButton.Size = new Size(140, 33);
+            BrowseImageButton.Size = new Size(140, 45);
             BrowseImageButton.TabIndex = 19;
             BrowseImageButton.Text = "Browse";
             BrowseImageButton.UseVisualStyleBackColor = false;
             BrowseImageButton.Click += BrowseImageButton_Click;
-            // 
-            // DescriptionTextBox
-            // 
-            DescriptionTextBox.Anchor = AnchorStyles.Right;
-            tableLayoutPanel2.SetColumnSpan(DescriptionTextBox, 2);
-            DescriptionTextBox.Location = new Point(208, 204);
-            DescriptionTextBox.Multiline = true;
-            DescriptionTextBox.Name = "DescriptionTextBox";
-            DescriptionTextBox.Size = new Size(399, 70);
-            DescriptionTextBox.TabIndex = 11;
-            // 
-            // AdditionalInformationTextBox
-            // 
-            AdditionalInformationTextBox.Anchor = AnchorStyles.Right;
-            tableLayoutPanel2.SetColumnSpan(AdditionalInformationTextBox, 2);
-            AdditionalInformationTextBox.Location = new Point(208, 286);
-            AdditionalInformationTextBox.Multiline = true;
-            AdditionalInformationTextBox.Name = "AdditionalInformationTextBox";
-            AdditionalInformationTextBox.Size = new Size(399, 70);
-            AdditionalInformationTextBox.TabIndex = 22;
             // 
             // label12
             // 
             label12.Anchor = AnchorStyles.Right;
             label12.AutoSize = true;
             label12.ForeColor = SystemColors.ControlLightLight;
-            label12.Location = new Point(467, 376);
+            label12.Location = new Point(499, 443);
             label12.Name = "label12";
             label12.Size = new Size(140, 23);
             label12.TabIndex = 25;
@@ -390,13 +370,33 @@
             button1.Anchor = AnchorStyles.Left;
             button1.BackColor = Color.Lavender;
             button1.ForeColor = Color.MediumSlateBlue;
-            button1.Location = new Point(613, 366);
+            button1.Location = new Point(645, 432);
             button1.Name = "button1";
-            button1.Size = new Size(140, 43);
+            button1.Size = new Size(140, 45);
             button1.TabIndex = 26;
             button1.Text = "Browse";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // DescriptionTextBox
+            // 
+            DescriptionTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel2.SetColumnSpan(DescriptionTextBox, 2);
+            DescriptionTextBox.Location = new Point(219, 222);
+            DescriptionTextBox.Multiline = true;
+            DescriptionTextBox.Name = "DescriptionTextBox";
+            DescriptionTextBox.Size = new Size(420, 70);
+            DescriptionTextBox.TabIndex = 11;
+            // 
+            // AdditionalInformationTextBox
+            // 
+            AdditionalInformationTextBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel2.SetColumnSpan(AdditionalInformationTextBox, 2);
+            AdditionalInformationTextBox.Location = new Point(219, 310);
+            AdditionalInformationTextBox.Multiline = true;
+            AdditionalInformationTextBox.Name = "AdditionalInformationTextBox";
+            AdditionalInformationTextBox.Size = new Size(420, 70);
+            AdditionalInformationTextBox.TabIndex = 22;
             // 
             // ImageFileDialog
             // 
@@ -407,7 +407,7 @@
             AddProductButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             AddProductButton.BackColor = Color.Lavender;
             AddProductButton.ForeColor = Color.MediumSlateBlue;
-            AddProductButton.Location = new Point(788, 581);
+            AddProductButton.Location = new Point(838, 631);
             AddProductButton.Name = "AddProductButton";
             AddProductButton.Size = new Size(140, 45);
             AddProductButton.TabIndex = 0;
@@ -417,10 +417,10 @@
             // 
             // BackButton
             // 
-            BackButton.Anchor = AnchorStyles.Right;
+            BackButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             BackButton.BackColor = Color.Lavender;
             BackButton.ForeColor = Color.MediumSlateBlue;
-            BackButton.Location = new Point(630, 581);
+            BackButton.Location = new Point(680, 631);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(140, 45);
             BackButton.TabIndex = 3;
@@ -446,7 +446,7 @@
             ForeColor = SystemColors.ControlLightLight;
             Margin = new Padding(4, 3, 4, 3);
             Name = "AddProductUserControl";
-            Size = new Size(950, 650);
+            Size = new Size(1000, 700);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);

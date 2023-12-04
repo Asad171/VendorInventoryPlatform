@@ -68,7 +68,7 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(1017, 96);
+            tableLayoutPanel1.Size = new Size(994, 96);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -78,7 +78,7 @@
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ControlLightLight;
             label1.ImageAlign = ContentAlignment.TopRight;
-            label1.Location = new Point(447, 34);
+            label1.Location = new Point(435, 34);
             label1.Name = "label1";
             label1.Size = new Size(123, 28);
             label1.TabIndex = 0;
@@ -87,7 +87,7 @@
             // 
             // tableLayoutPanel2
             // 
-            tableLayoutPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             tableLayoutPanel2.ColumnCount = 4;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 21.05263F));
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 26.31579F));
@@ -119,7 +119,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 26.89496F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 15.3905363F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 15.3905363F));
-            tableLayoutPanel2.Size = new Size(980, 320);
+            tableLayoutPanel2.Size = new Size(957, 400);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // label2
@@ -127,7 +127,7 @@
             label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
             label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(55, 13);
+            label2.Location = new Point(50, 19);
             label2.Name = "label2";
             label2.Size = new Size(148, 23);
             label2.TabIndex = 0;
@@ -136,9 +136,9 @@
             // CompanyNameTextBox
             // 
             CompanyNameTextBox.Anchor = AnchorStyles.Left;
-            CompanyNameTextBox.Location = new Point(209, 9);
+            CompanyNameTextBox.Location = new Point(204, 15);
             CompanyNameTextBox.Name = "CompanyNameTextBox";
-            CompanyNameTextBox.Size = new Size(251, 30);
+            CompanyNameTextBox.Size = new Size(245, 30);
             CompanyNameTextBox.TabIndex = 8;
             // 
             // label3
@@ -146,18 +146,18 @@
             label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
             label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(466, 13);
+            label3.Location = new Point(492, 7);
             label3.Name = "label3";
-            label3.Size = new Size(251, 23);
+            label3.Size = new Size(208, 46);
             label3.TabIndex = 1;
             label3.Text = "Company Establishment Date: ";
             // 
             // dateTimePicker1
             // 
             dateTimePicker1.Anchor = AnchorStyles.Left;
-            dateTimePicker1.Location = new Point(723, 9);
+            dateTimePicker1.Location = new Point(706, 15);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(254, 30);
+            dateTimePicker1.Size = new Size(248, 30);
             dateTimePicker1.TabIndex = 17;
             // 
             // label4
@@ -165,7 +165,7 @@
             label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
             label4.ForeColor = SystemColors.ControlLightLight;
-            label4.Location = new Point(34, 80);
+            label4.Location = new Point(29, 103);
             label4.Name = "label4";
             label4.Size = new Size(169, 23);
             label4.TabIndex = 2;
@@ -173,20 +173,20 @@
             // 
             // CountriesLocationTextBox
             // 
-            CountriesLocationTextBox.Anchor = AnchorStyles.Left;
-            CountriesLocationTextBox.Location = new Point(209, 57);
+            CountriesLocationTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            CountriesLocationTextBox.Location = new Point(204, 64);
             CountriesLocationTextBox.Multiline = true;
             CountriesLocationTextBox.Name = "CountriesLocationTextBox";
-            CountriesLocationTextBox.Size = new Size(251, 70);
+            CountriesLocationTextBox.Size = new Size(245, 101);
             CountriesLocationTextBox.TabIndex = 10;
             // 
             // CitiesLocationTextBox
             // 
-            CitiesLocationTextBox.Anchor = AnchorStyles.Left;
-            CitiesLocationTextBox.Location = new Point(723, 57);
+            CitiesLocationTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            CitiesLocationTextBox.Location = new Point(706, 64);
             CitiesLocationTextBox.Multiline = true;
             CitiesLocationTextBox.Name = "CitiesLocationTextBox";
-            CitiesLocationTextBox.Size = new Size(254, 70);
+            CitiesLocationTextBox.Size = new Size(248, 101);
             CitiesLocationTextBox.TabIndex = 11;
             // 
             // label5
@@ -194,7 +194,7 @@
             label5.Anchor = AnchorStyles.Right;
             label5.AutoSize = true;
             label5.ForeColor = SystemColors.ControlLightLight;
-            label5.Location = new Point(575, 80);
+            label5.Location = new Point(558, 103);
             label5.Name = "label5";
             label5.Size = new Size(142, 23);
             label5.TabIndex = 3;
@@ -205,28 +205,28 @@
             label6.Anchor = AnchorStyles.Right;
             label6.AutoSize = true;
             label6.ForeColor = SystemColors.ControlLightLight;
-            label6.Location = new Point(7, 166);
+            label6.Location = new Point(35, 198);
             label6.Name = "label6";
-            label6.Size = new Size(196, 23);
+            label6.Size = new Size(163, 46);
             label6.TabIndex = 4;
             label6.Text = "Contact Telephone No.: ";
             // 
             // TelephoneTextBox
             // 
-            TelephoneTextBox.Anchor = AnchorStyles.Left;
-            TelephoneTextBox.Location = new Point(209, 144);
+            TelephoneTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            TelephoneTextBox.Location = new Point(204, 171);
             TelephoneTextBox.Multiline = true;
             TelephoneTextBox.Name = "TelephoneTextBox";
-            TelephoneTextBox.Size = new Size(251, 68);
+            TelephoneTextBox.Size = new Size(245, 101);
             TelephoneTextBox.TabIndex = 12;
             // 
             // AddressesTextBox
             // 
-            AddressesTextBox.Anchor = AnchorStyles.Left;
-            AddressesTextBox.Location = new Point(723, 143);
+            AddressesTextBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            AddressesTextBox.Location = new Point(706, 171);
             AddressesTextBox.Multiline = true;
             AddressesTextBox.Name = "AddressesTextBox";
-            AddressesTextBox.Size = new Size(254, 70);
+            AddressesTextBox.Size = new Size(248, 101);
             AddressesTextBox.TabIndex = 13;
             // 
             // label7
@@ -234,7 +234,7 @@
             label7.Anchor = AnchorStyles.Right;
             label7.AutoSize = true;
             label7.ForeColor = SystemColors.ControlLightLight;
-            label7.Location = new Point(633, 166);
+            label7.Location = new Point(616, 210);
             label7.Name = "label7";
             label7.Size = new Size(84, 23);
             label7.TabIndex = 5;
@@ -245,7 +245,7 @@
             label9.Anchor = AnchorStyles.Right;
             label9.AutoSize = true;
             label9.ForeColor = SystemColors.ControlLightLight;
-            label9.Location = new Point(40, 234);
+            label9.Location = new Point(35, 294);
             label9.Name = "label9";
             label9.Size = new Size(163, 23);
             label9.TabIndex = 7;
@@ -256,7 +256,7 @@
             InternalProfessionalCheckBox.Anchor = AnchorStyles.Left;
             InternalProfessionalCheckBox.AutoSize = true;
             InternalProfessionalCheckBox.ForeColor = SystemColors.ControlLightLight;
-            InternalProfessionalCheckBox.Location = new Point(723, 232);
+            InternalProfessionalCheckBox.Location = new Point(706, 292);
             InternalProfessionalCheckBox.Name = "InternalProfessionalCheckBox";
             InternalProfessionalCheckBox.Size = new Size(56, 27);
             InternalProfessionalCheckBox.TabIndex = 16;
@@ -268,18 +268,18 @@
             label8.Anchor = AnchorStyles.Right;
             label8.AutoSize = true;
             label8.ForeColor = SystemColors.ControlLightLight;
-            label8.Location = new Point(471, 234);
+            label8.Location = new Point(459, 294);
             label8.Name = "label8";
-            label8.Size = new Size(246, 23);
+            label8.Size = new Size(241, 23);
             label8.TabIndex = 6;
             label8.Text = "Internal Professional Service: ";
             // 
             // NoOfEmployeesTextBox
             // 
             NoOfEmployeesTextBox.Anchor = AnchorStyles.Left;
-            NoOfEmployeesTextBox.Location = new Point(209, 230);
+            NoOfEmployeesTextBox.Location = new Point(204, 290);
             NoOfEmployeesTextBox.Name = "NoOfEmployeesTextBox";
-            NoOfEmployeesTextBox.Size = new Size(251, 30);
+            NoOfEmployeesTextBox.Size = new Size(245, 30);
             NoOfEmployeesTextBox.TabIndex = 15;
             // 
             // label10
@@ -287,7 +287,7 @@
             label10.Anchor = AnchorStyles.Right;
             label10.AutoSize = true;
             label10.ForeColor = SystemColors.ControlLightLight;
-            label10.Location = new Point(593, 283);
+            label10.Location = new Point(576, 356);
             label10.Name = "label10";
             label10.Size = new Size(124, 23);
             label10.TabIndex = 18;
@@ -298,9 +298,9 @@
             BrowsePosterImageButton.Anchor = AnchorStyles.Left;
             BrowsePosterImageButton.BackColor = Color.Lavender;
             BrowsePosterImageButton.ForeColor = Color.MediumSlateBlue;
-            BrowsePosterImageButton.Location = new Point(723, 273);
+            BrowsePosterImageButton.Location = new Point(706, 345);
             BrowsePosterImageButton.Name = "BrowsePosterImageButton";
-            BrowsePosterImageButton.Size = new Size(140, 44);
+            BrowsePosterImageButton.Size = new Size(140, 45);
             BrowsePosterImageButton.TabIndex = 19;
             BrowsePosterImageButton.Text = "Browse";
             BrowsePosterImageButton.UseVisualStyleBackColor = false;
@@ -340,7 +340,7 @@
             AddVendorButton.Anchor = AnchorStyles.Right;
             AddVendorButton.BackColor = Color.Lavender;
             AddVendorButton.ForeColor = Color.MediumSlateBlue;
-            AddVendorButton.Location = new Point(835, 511);
+            AddVendorButton.Location = new Point(816, 604);
             AddVendorButton.Name = "AddVendorButton";
             AddVendorButton.Size = new Size(140, 45);
             AddVendorButton.TabIndex = 0;
@@ -353,7 +353,7 @@
             BackButton.Anchor = AnchorStyles.Right;
             BackButton.BackColor = Color.Lavender;
             BackButton.ForeColor = Color.MediumSlateBlue;
-            BackButton.Location = new Point(674, 511);
+            BackButton.Location = new Point(637, 604);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(140, 45);
             BackButton.TabIndex = 2;
@@ -374,7 +374,7 @@
             Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             Margin = new Padding(4, 3, 4, 3);
             Name = "VendorAddUserControl";
-            Size = new Size(1023, 599);
+            Size = new Size(1000, 700);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);

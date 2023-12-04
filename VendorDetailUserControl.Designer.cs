@@ -65,9 +65,9 @@
             // PosterImagePictureBox
             // 
             PosterImagePictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            PosterImagePictureBox.Location = new Point(688, 82);
+            PosterImagePictureBox.Location = new Point(725, 82);
             PosterImagePictureBox.Name = "PosterImagePictureBox";
-            PosterImagePictureBox.Size = new Size(244, 204);
+            PosterImagePictureBox.Size = new Size(272, 204);
             PosterImagePictureBox.TabIndex = 0;
             PosterImagePictureBox.TabStop = false;
             // 
@@ -196,7 +196,7 @@
             tableLayoutPanel2.RowCount = 2;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 85F));
-            tableLayoutPanel2.Size = new Size(926, 310);
+            tableLayoutPanel2.Size = new Size(991, 384);
             tableLayoutPanel2.TabIndex = 6;
             // 
             // panel4
@@ -204,9 +204,9 @@
             panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel4.AutoScroll = true;
             panel4.Controls.Add(LocationCountriesLabel);
-            panel4.Location = new Point(696, 49);
+            panel4.Location = new Point(744, 60);
             panel4.Name = "panel4";
-            panel4.Size = new Size(227, 258);
+            panel4.Size = new Size(244, 321);
             panel4.TabIndex = 5;
             // 
             // LocationCountriesLabel
@@ -223,9 +223,9 @@
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel3.AutoScroll = true;
             panel3.Controls.Add(LocationCitiesLabel);
-            panel3.Location = new Point(465, 49);
+            panel3.Location = new Point(497, 60);
             panel3.Name = "panel3";
-            panel3.Size = new Size(225, 258);
+            panel3.Size = new Size(241, 321);
             panel3.TabIndex = 5;
             // 
             // LocationCitiesLabel
@@ -242,9 +242,9 @@
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel2.AutoScroll = true;
             panel2.Controls.Add(AddressesLabel);
-            panel2.Location = new Point(234, 49);
+            panel2.Location = new Point(250, 60);
             panel2.Name = "panel2";
-            panel2.Size = new Size(225, 258);
+            panel2.Size = new Size(241, 321);
             panel2.TabIndex = 5;
             // 
             // AddressesLabel
@@ -260,7 +260,7 @@
             // 
             label8.Anchor = AnchorStyles.None;
             label8.AutoSize = true;
-            label8.Location = new Point(730, 11);
+            label8.Location = new Point(786, 17);
             label8.Name = "label8";
             label8.Size = new Size(159, 23);
             label8.TabIndex = 3;
@@ -270,7 +270,7 @@
             // 
             label7.Anchor = AnchorStyles.None;
             label7.AutoSize = true;
-            label7.Location = new Point(514, 11);
+            label7.Location = new Point(554, 17);
             label7.Name = "label7";
             label7.Size = new Size(127, 23);
             label7.TabIndex = 2;
@@ -280,7 +280,7 @@
             // 
             label6.Anchor = AnchorStyles.None;
             label6.AutoSize = true;
-            label6.Location = new Point(301, 11);
+            label6.Location = new Point(325, 17);
             label6.Name = "label6";
             label6.Size = new Size(90, 23);
             label6.TabIndex = 1;
@@ -290,7 +290,7 @@
             // 
             label5.Anchor = AnchorStyles.None;
             label5.AutoSize = true;
-            label5.Location = new Point(47, 11);
+            label5.Location = new Point(55, 17);
             label5.Name = "label5";
             label5.Size = new Size(137, 23);
             label5.TabIndex = 0;
@@ -301,9 +301,9 @@
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panel1.AutoScroll = true;
             panel1.Controls.Add(PhoneNumbersLabel);
-            panel1.Location = new Point(3, 49);
+            panel1.Location = new Point(3, 60);
             panel1.Name = "panel1";
-            panel1.Size = new Size(225, 258);
+            panel1.Size = new Size(241, 321);
             panel1.TabIndex = 4;
             // 
             // PhoneNumbersLabel
@@ -318,7 +318,7 @@
             // BackButton
             // 
             BackButton.ForeColor = Color.MediumSlateBlue;
-            BackButton.Location = new Point(6, 14);
+            BackButton.Location = new Point(3, 24);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(136, 42);
             BackButton.TabIndex = 7;
@@ -328,8 +328,9 @@
             // 
             // DeleteButton
             // 
+            DeleteButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             DeleteButton.ForeColor = Color.MediumSlateBlue;
-            DeleteButton.Location = new Point(793, 14);
+            DeleteButton.Location = new Point(860, 24);
             DeleteButton.Name = "DeleteButton";
             DeleteButton.Size = new Size(136, 42);
             DeleteButton.TabIndex = 8;
@@ -351,7 +352,7 @@
             ForeColor = SystemColors.ControlLightLight;
             Margin = new Padding(4, 3, 4, 3);
             Name = "VendorDetailUserControl";
-            Size = new Size(935, 626);
+            Size = new Size(1000, 700);
             ((System.ComponentModel.ISupportInitialize)PosterImagePictureBox).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

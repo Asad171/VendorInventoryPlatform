@@ -15,7 +15,7 @@ namespace VendorAppInventory
         public string Password { get; set; }
         public bool IsAdmin { get; set; }
 
-        private string connectionString = "server=localhost;uid=root;pwd=Ali12345.;database=vendorinventoryplatform";
+        private string connectionString = "server=localhost;uid=root;pwd=Asadbek2003.;database=vendorinventoryplatform";
 
         // Function to write data into the users table
         public bool WriteDataToTable(string name, string email, string password, bool isAdmin)

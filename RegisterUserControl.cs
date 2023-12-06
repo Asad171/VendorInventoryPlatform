@@ -38,6 +38,12 @@ namespace VendorAppInventory
                 return;
             }
 
+            if (password.Length > 15 || password.Length < 8)
+            {
+                MessageBox.Show("Passwords must be between length 8 and 15.", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             if (password != confirmPassword) {
                 MessageBox.Show("Passwords did not match.", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

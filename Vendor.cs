@@ -20,7 +20,7 @@ namespace VendorAppInventory
         public bool ProfessionalService { get; set; }
         public string UserEmail { get; set; }
 
-        private string connectionString = "server=localhost;uid=root;pwd=Ali12345.;database=vendorinventoryplatform";
+        private string connectionString = "server=localhost;uid=root;pwd=Asadbek2003;database=vendorinventoryplatform";
 
         // Function to retrieve data from the vendors table
         public List<Vendor> GetDataFromTable()
